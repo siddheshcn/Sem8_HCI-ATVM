@@ -1,4 +1,5 @@
 Sem8_HCI-ATVM
 =============
 
-ATVM app for Mumbai Metro Line 1
+Simple ATVM application for Mumbai Metro Line 1- Versova Station.
+Experiment under academic course.

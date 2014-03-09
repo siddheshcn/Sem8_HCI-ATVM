@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/metro_bg"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D.N. Nagar"
+                android:textSize="20sp"
+                android:background="@drawable/btn_40x40"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azad Nagar"
+                android:textSize="20sp"
+                android:background="@drawable/btn_40x40"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_40x40"
+                android:text="Andheri Station"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_40x40"
+                android:text="Western Express"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_40x40"
+                android:text="Chakala"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Airport road"
+                android:background="@drawable/btn_40x40"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marol"
+                android:background="@drawable/btn_40x40"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAKINAKA"
+                android:background="@drawable/btn_40x40"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_40x40"
+                android:text="Asalpha"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_40x40"
+                android:text="Jagruti Nagar"
+                android:textSize="20sp"
+                android:width="175dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/adult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/adultText"
+        android:layout_alignBottom="@+id/adultText"
+        android:layout_alignRight="@+id/destination_text"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/one"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <Button
+        android:id="@+id/adult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/adult1"
+        android:layout_alignBottom="@+id/adult1"
+        android:layout_toRightOf="@+id/adult1"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/two"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <Button
+        android:id="@+id/adult3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/adult2"
+        android:layout_alignBottom="@+id/adult2"
+        android:layout_toRightOf="@+id/adult2"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/three"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <Button
+        android:id="@+id/adult4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/adult3"
+        android:layout_alignBottom="@+id/adult3"
+        android:layout_toRightOf="@+id/adult3"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/four"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <Button
+        android:id="@+id/adult5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/adult4"
+        android:layout_alignBottom="@+id/adult4"
+        android:layout_toRightOf="@+id/adult4"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/five"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <TextView
+        android:id="@+id/adultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/destination_text"
+        android:layout_below="@+id/destination_text"
+        android:layout_marginTop="54dp"
+        android:text="@string/adult"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adultText"
+        android:layout_below="@+id/adult1"
+        android:layout_marginTop="28dp"
+        android:text="@string/child"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/child0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adult1"
+        android:layout_alignTop="@+id/textView1"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/zero"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+    
+    <Button
+        android:id="@+id/child1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/child0"
+        android:layout_alignBottom="@+id/child0"
+        android:layout_toRightOf="@+id/child0"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/one"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+    
+    <Button
+        android:id="@+id/child2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/child1"
+        android:layout_alignBottom="@+id/child1"
+        android:layout_toRightOf="@+id/child1"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/two"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <Button
+        android:id="@+id/child3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/child2"
+        android:layout_alignBottom="@+id/child2"
+        android:layout_toRightOf="@+id/child2"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/three"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <Button
+        android:id="@+id/child4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/child3"
+        android:layout_alignBottom="@+id/child3"
+        android:layout_toRightOf="@+id/child3"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/four"
+        android:textSize="20sp"
+        android:width="@dimen/parent_btn_size" />
+
+    <TextView
+        android:id="@+id/journey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/child0"
+        
+        android:layout_marginTop="33dp"
+        android:text="@string/journey"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/single_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/journey"
+        android:layout_alignBottom="@+id/journey"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/journey"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/single_btn"
+        android:textSize="17sp"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/single_btn"
+        android:layout_alignBottom="@+id/single_btn"
+        android:layout_alignRight="@+id/child4"
+        android:background="@drawable/btn_40x40"
+        android:text="@string/return_btn"
+        android:textSize="15sp"
+        android:width="120dp" />
+
+    <Button
+        android:id="@+id/print_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:layout_alignTop="@+id/journey"
+        android:background="@drawable/print40x40"
+        android:height="70dp"
+        android:text="@string/print"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:width="200dp" />
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/print_btn"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/print_btn"
+        android:background="@drawable/btn_40x40"
+        android:height="70dp"
+        android:text="@string/reset"
+        android:textSize="20sp"
+        android:width="100dp" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignRight="@+id/reset_btn"
+        android:layout_marginRight="76dp"
+        android:text="BALANCE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:layout_marginRight="37dp"
+        android:text="BALANCE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/curr_bal_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignTop="@+id/child4"
+        android:background="@drawable/blue_btn_40x40"
+        android:gravity="center"
+        android:text="CB"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/fareBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/curr_bal_box"
+        android:layout_alignBottom="@+id/curr_bal_box"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:background="@drawable/blue_btn_40x40"
+        android:gravity="center"
+        android:text="F"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/final_bal_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fareBox"
+        android:layout_alignBottom="@+id/fareBox"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:background="@drawable/blue_btn_40x40"
+        android:gravity="center"
+        android:text="FB"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/curr_bal_box"
+        android:text="CURRENT"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView42"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:layout_marginRight="38dp"
+        android:gravity="center"
+        android:text="FINAL"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:background="@drawable/btn_40x40"
+        android:padding="10dp"
+        android:text="Ghatkopar [Last station]"
+        android:textSize="20sp"
+        android:width="350dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/destination_text"
+        android:layout_toLeftOf="@+id/button12"
+        android:background="@drawable/btn_40x40"
+        android:padding="10dp"
+        android:text="Versova   [Platform ticket]"
+        android:textSize="20sp"
+        android:width="350dp" />
+
+    <TextView
+        android:id="@+id/destination_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tableLayout1"
+        android:layout_alignLeft="@+id/tableLayout1"
+        android:layout_marginBottom="103dp"
+        android:padding="10dp"
+        android:text="@string/destination"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/textView22"
+        android:gravity="center"
+        android:text="FARE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
