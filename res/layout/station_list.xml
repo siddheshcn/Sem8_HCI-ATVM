@@ -22,18 +22,18 @@
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="D.N. Nagar"
-                android:textSize="20sp"
                 android:background="@drawable/btn_40x40"
+                android:text="D.N. NAGAR"
+                android:textSize="20sp"
                 android:width="175dp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Azad Nagar"
-                android:textSize="20sp"
                 android:background="@drawable/btn_40x40"
+                android:text="AZAD NAGAR"
+                android:textSize="20sp"
                 android:width="175dp" />
 
             <Button
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn_40x40"
-                android:text="Andheri Station"
+                android:text="ANDHERI STN."
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn_40x40"
-                android:text="Western Express"
+                android:text="W.EXP.HIGHWAY"
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn_40x40"
-                android:text="Chakala"
+                android:text="CHAKALA"
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -75,8 +75,8 @@
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Airport road"
                 android:background="@drawable/btn_40x40"
+                android:text="AIRPORT ROAD"
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -84,8 +84,8 @@
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Marol"
                 android:background="@drawable/btn_40x40"
+                android:text="MAROL"
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -103,7 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn_40x40"
-                android:text="Asalpha"
+                android:text="ASALPHA"
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -112,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn_40x40"
-                android:text="Jagruti Nagar"
+                android:text="JAGRUTI NAGAR"
                 android:textSize="20sp"
                 android:width="175dp" />
 
@@ -409,7 +409,7 @@
         android:layout_alignRight="@+id/tableLayout1"
         android:background="@drawable/btn_40x40"
         android:padding="10dp"
-        android:text="Ghatkopar [Last station]"
+        android:text="GHATKOPAR [Last station]"
         android:textSize="20sp"
         android:width="350dp" />
 
@@ -421,7 +421,7 @@
         android:layout_toLeftOf="@+id/button12"
         android:background="@drawable/btn_40x40"
         android:padding="10dp"
-        android:text="Versova   [Platform ticket]"
+        android:text="VERSOVA   [Platform ticket]"
         android:textSize="20sp"
         android:width="350dp" />
 

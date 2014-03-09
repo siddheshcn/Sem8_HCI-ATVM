@@ -62,8 +62,8 @@ public class MainActivity extends Activity implements OnClickListener
 			// show dialauge box
 			AlertDialog.Builder curr_bal_init= new AlertDialog.Builder(this);
 			curr_bal_init.setTitle("Not enough balance");
-			curr_bal_init.setMessage("Your card does not have minimum balance required for a ticket. Please recharge or use another card. \nPress Okay to insert another card.");
-			curr_bal_init.setPositiveButton("Okay", new DialogInterface.OnClickListener()
+			curr_bal_init.setMessage("Your card does not have minimum balance required for a ticket. Please recharge or use another card.");
+			curr_bal_init.setPositiveButton("Use another card", new DialogInterface.OnClickListener()
 			{
 				public void onClick(DialogInterface dialog, int which)
 				{
@@ -253,8 +253,8 @@ public class MainActivity extends Activity implements OnClickListener
 		AlertDialog.Builder negative_bal= new AlertDialog.Builder(this);
 
 		negative_bal.setTitle("Reset");
-		negative_bal.setMessage("Press 'Reset' to reset the chosen options or 'Change Card' to use another card.");
-		negative_bal.setPositiveButton("Reset", new DialogInterface.OnClickListener()
+		negative_bal.setMessage("Reset chosen options?");
+		negative_bal.setPositiveButton("Reset options", new DialogInterface.OnClickListener()
 		{
 			public void onClick(DialogInterface dialog, int which)
 			{
@@ -303,8 +303,8 @@ public class MainActivity extends Activity implements OnClickListener
 		{
 			AlertDialog.Builder negative_bal= new AlertDialog.Builder(this);
 			negative_bal.setTitle("Not enough balance");
-			negative_bal.setMessage("Your card does not have enough balance for this transaction.\nPress 'Ok' to insert another card or 'Reset' to reset your chosen options.");
-			negative_bal.setPositiveButton("Ok", new DialogInterface.OnClickListener()
+			negative_bal.setMessage("Your card does not have enough balance for this transaction.");
+			negative_bal.setPositiveButton("Change Card", new DialogInterface.OnClickListener()
 			{
 				public void onClick(DialogInterface dialog, int which)
 				{
@@ -312,7 +312,7 @@ public class MainActivity extends Activity implements OnClickListener
 					resetAll();
 				}
 			});
-			negative_bal.setNegativeButton("Reset", new DialogInterface.OnClickListener()
+			negative_bal.setNegativeButton("Reset chosen options", new DialogInterface.OnClickListener()
 			{
 				public void onClick(DialogInterface dialog, int which)
 				{
@@ -323,8 +323,11 @@ public class MainActivity extends Activity implements OnClickListener
 			});
 			negative_bal.show();
 		}
-		fare_disp.setText(Integer.toString(ticket_fare));
-		final_bal_disp.setText(Integer.toString(final_bal));
+		else
+		{
+			fare_disp.setText(Integer.toString(ticket_fare));
+			final_bal_disp.setText(Integer.toString(final_bal));
+		}
 	}//end calculateFare
 
 	public void print()
